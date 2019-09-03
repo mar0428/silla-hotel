@@ -1,0 +1,769 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.hidden{
+  position: absolute;
+  left: -9999px;
+}
+img{border: 0;}
+
+
+#body_wrap{
+  clear: both;
+  width: 1920px;
+  margin: 0 auto;
+}
+body{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Noto Sans KR', sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+#header_wrap{
+  width: 1920px;
+  margin: 0 auto;
+}
+#header{
+  width: 100%;
+  float: left;
+  height: 1200px;
+  position: relative;
+  overflow: hidden;
+}
+#header h1{
+  position: absolute;
+  left: 850px;
+  top: 443px;
+  z-index: 2;
+}
+#slider{
+  width: 1920px;
+  height: 1102px;
+  position: absolute;
+}
+#slider img{
+  position: absolute;
+}
+#slider img:first-child{
+  z-index: 1;
+}
+
+#slider ul{
+
+}
+
+
+#container{
+}
+/* 메인 네비게이션 시작*/
+
+ .logo_wrap{
+/*  width: 1920px;*/
+    width: 100%;
+  height: 77px;
+  background-color: #4a433b;
+  opacity: 0.8;
+
+     text-align: center;
+}
+
+.logo_wrap img{
+    padding: 14px 0px;
+}
+/*
+ .logo_wrap img{
+  padding: 14px 847px 0px 852px;
+}
+*/
+
+#nav_wrap{
+    clear: both;
+    width: 100%;
+    /* position: fixed; */
+}
+
+
+#nav{
+    width: 100%;
+/*    margin: 0 auto;*/
+    position: absolute;
+    top: 1275px;        /*이거 삭제하기*/
+    z-index: 2;
+    background-color: #4a433b;
+    opacity: 0.8;
+}
+.dept01{
+  width: 1200px;
+  margin: 0 auto;
+    height: 50px;
+    text-align: center;
+    overflow: hidden;
+    -webkit-transition: height 0.4s;
+    transition: height 0.4s;
+}
+.dept01 > li{
+    float: left;
+    width: 20%;
+    text-align: center;
+    height: 43px;
+
+    color: #eae4e1;
+}
+.dept01 > li > span{
+    display: block;
+    font-size: 18px;
+    /* letter-spacing: -2.5em;  자간*/
+    font-weight: thin;
+
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: lighter;
+    /* line-height: 2; 행간 */
+    padding: 14px 0;
+    color: white;
+    text-transform: uppercase;
+
+
+
+}
+.dept01 > li > span a{
+  color: #eae4e1;
+}
+
+.dept02{
+    height: 380px;
+/*    background-color: rgba(74, 67, 59, 0.3);*/
+}
+.dept02 > li{
+    padding: 10px 0;
+}
+.dept02 > li > a{
+    display: block;
+font-family: 'Noto Sans KR', sans-serif;
+font-weight: lighter;
+    font-size: 14px;
+    color: white;
+}
+
+
+.dept01:hover{
+    height: 400px;
+}
+
+
+/* 메인 네비게이션 끝 */
+
+
+#container{
+    clear: both;
+}
+#container #content1{
+  height: 1026px;
+  /* margin-top: 60px; */
+}
+#container #content1 #int1{
+  float: left;
+  width: 960px;
+  height: 1026px;
+  /* border-right: 1px solid #64513a; */
+}
+#container #content1 #int1 #int1_img{
+  position: relative;
+  top: 86px;
+  left: 399px;
+}
+#container #content1 #int1 #int1_txt{
+  position: relative;
+  left: 443px;
+  top: 368px;
+}
+#int1_txt h3{
+  font-size: 35px;
+  color: #432c10;
+  font-weight: lighter;
+}
+#int1_txt p{
+  font-size: 18px;
+  color: #432c10;
+  font-weight: normal;
+}
+#container #content1 #int2{
+  float: left;
+  height: 1026px;
+}
+#container #content1 #int2 #int2_img{
+  position: relative;
+  top: 562px;
+  left: 14px;
+}
+#container #content1 #int2 #int2_txt{
+position: relative;
+left: 69px;
+top: -150px;
+}
+#int2_txt h3{
+  font-size: 35px;
+  color: #432c10;
+  font-weight: lighter;
+}
+#int2_txt p{
+  font-size: 18px;
+  color: #432c10;
+  font-weight: normal;
+}
+#content2{
+  clear: both;
+}
+#content2 .room{
+  width: 1920px;
+  height: 1101px;
+  background: url("../images/room배경.png") no-repeat;
+}
+#room_txt{
+  color: #ffffff;
+  text-align: center;
+  padding-top: 483px;
+}
+#room_txt h2{
+  font-weight: lighter;
+  font-size: 53px;
+}
+#room_txt p{
+  font-size: 30px;
+  font-weight: lighter;
+}
+.room img{
+  position: relative;
+  left: 936px;
+  padding-top: 24px;
+}
+.room_detail{
+  height: 691px;
+  background-color: #f5ead3;
+  padding: 155px 0 0 400px;
+  color: #432c10;
+}
+.room_detail #standard{
+  width: 359px;
+  height: 482px;
+  background-color: #fff;
+  float: left;
+}
+.room_detail #premiere{
+  width: 359px;
+  height: 482px;
+  background-color: #fff;
+  float: left;
+}
+.room_detail #suite{
+  width: 359px;
+  height: 482px;
+  background-color: #fff;
+  float: left;
+}
+.room_detail div{
+  margin-right: 22px;
+}
+
+.room_detail div h2{
+  font-size: 27px;
+  text-align: center;
+  padding-top: 36px;
+  font-weight: normal;
+}
+.room_detail div p{
+  height: 40px;
+  line-height: 40px;
+}
+.room_detail #standard p{
+  font-size: 16px;
+  text-align: center;
+  margin: 40px 35px 14px 35px;
+}
+.room_detail #premiere p{
+  font-size: 16px;
+  text-align: center;
+  margin: 40px 20px 14px 20px;
+}
+.room_detail #suite p{
+  font-size: 16px;
+  text-align: center;
+  margin: 40px 25px 14px 25px;
+}
+.room_detail a{
+  display: block;
+  padding: 30px 0 25px 167px;
+}
+/* -- */
+#content3 .dining{
+  width: 1920px;
+  height: 1096px;
+  background: url("../images/dining배경.png") no-repeat;
+}
+#dining_txt{
+  color: #ffffff;
+  text-align: center;
+  padding-top: 483px;
+}
+#dining_txt h2{
+  font-weight: lighter;
+  font-size: 53px;
+}
+#dining_txt p{
+  font-weight: lighter;
+  font-size: 30px;
+  width: 610px;
+  height: 75px;
+  padding: 20px 0 20px 654px;
+}
+.dining img{
+  position: relative;
+  left: 936px;
+  padding-top: 24px;
+}
+/* #content3_4_wrap{
+  height: 1967px;
+  background: url("../images/아이보리배경.png") repeat-x;
+} */
+/* -- */
+.dining_detail{
+  height: 691px;
+  background-color: #f5ead3;
+  padding: 155px 0 0 400px;
+  color: #432c10;
+}
+.dining_detail #choenji{
+  width: 359px;
+  height: 482px;
+  background-color: #fff;
+  float: left;
+}
+.dining_detail #hinode{
+  width: 359px;
+  height: 482px;
+  background-color: #fff;
+  float: left;
+}
+.dining_detail #park_view{
+  width: 359px;
+  height: 482px;
+  background-color: #fff;
+  float: left;
+}
+.dining_detail div{
+  margin-right: 22px;
+}
+
+.dining_detail div h2{
+  font-size: 27px;
+  text-align: center;
+  padding-top: 36px;
+  font-weight: normal;
+}
+.dining_detail div p{
+  height: 40px;
+  line-height: 40px;
+  /* margin-bottom: 18px; */
+}
+.dining_detail #choenji p{
+  font-size: 16px;
+  text-align: center;
+  margin: 40px 35px 14px 35px;
+}
+.dining_detail #hinode p{
+  font-size: 16px;
+  text-align: center;
+  margin: 40px 20px 14px 20px;
+}
+.dining_detail #park_view p{
+  font-size: 16px;
+  text-align: center;
+  margin: 40px 25px 14px 25px;
+}
+.dining_detail a{
+  display: block;
+  padding: 30px 0 25px 167px;
+}
+
+/* content4수정 */
+#content4{
+  /* width: 1122px; */
+  width: 1920px;
+  /* height: 633px; */
+  height: 1000px;
+  position: relative;
+  /* margin-top: 300px; */
+    padding-top: 446px;
+      background: url("../images/아이보리배경그라데이션.png") no-repeat;
+clear: both;
+}
+#activities{
+  width: 290px;
+  height: 418px;
+  background-color: #edece8;
+  float: left;
+  margin-left: 399px;
+  font-size: 14px;
+
+}
+#content4 h2{
+  text-align: center;
+  font-weight: normal;
+  /* padding-bottom: 50px; */
+  font-size: 30px;
+  color: #39362f;
+}
+#content4 h2:after{
+  display: block;
+  content: "";
+  width: 54px;
+  border-bottom: 2px solid #7e7a72;
+  margin: 15px auto 50px;
+
+}
+#activities p{
+  padding: 150px 0 50px 50px;
+  color: #39362f;
+}
+#activities a{
+
+  border: 1px solid #39362f;
+  border-radius: 30px;
+  padding: 8px 13px;
+  margin-left: 90px;
+  color: #39362f;
+}
+#list_wrap{
+  width: 832px;
+  /* height: 418px; */
+  float: left;
+
+}
+#list_wrap li{
+  width: 208px;
+  height: 208px;
+  float: left;
+  opacity: 0.9;
+}
+.sumbi img:last-child{
+display: none;
+}
+.sumbi:hover img:first-child{
+  display: none;
+}
+.sumbi:hover img:last-child{
+  display: inline-block;
+}
+.gallery img:last-child{
+display: none;
+}
+.gallery:hover img:first-child{
+  display: none;
+}
+.gallery:hover img:last-child{
+  display: inline-block;
+}
+.wine img:last-child{
+display: none;
+}
+.wine:hover img:first-child{
+  display: none;
+}
+.wine:hover img:last-child{
+  display: inline-block;
+}
+.fitness img:last-child{
+display: none;
+}
+.fitness:hover img:first-child{
+  display: none;
+}
+.fitness:hover img:last-child{
+  display: inline-block;
+}
+.kids img:last-child{
+display: none;
+}
+.kids:hover img:first-child{
+  display: none;
+}
+.kids:hover img:last-child{
+  display: inline-block;
+}
+.leisure img:last-child{
+display: none;
+}
+.leisure:hover img:first-child{
+  display: none;
+}
+.leisure:hover img:last-child{
+  display: inline-block;
+}
+.camping img:last-child{
+display: none;
+}
+.camping:hover img:first-child{
+  display: none;
+}
+.camping:hover img:last-child{
+  display: inline-block;
+}
+.playstation img:last-child{
+display: none;
+}
+.playstation:hover img:first-child{
+  display: none;
+}
+.playstation:hover img:last-child{
+  display: inline-block;
+}
+
+
+
+
+/* content5 시작 */
+
+/* content5 끝 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* content4 */
+/* .item span{
+  font-family: '나눔명조';
+}
+.item p{
+  font-family: '나눔명조';
+} */
+
+
+/*
+.txt1, .txt2, .txt3{
+  height: 289px;
+  text-align: center;
+
+}
+
+
+
+
+.item span{
+  display: block;
+  padding-top: 65px;
+  padding-bottom: 13px;
+  font-size: 21px;
+
+}
+
+.txt1{
+
+  background-color: #f5ead3;
+  height: 482px;
+}
+.txt2{
+  background-color: #acd3dd;
+}
+.txt3{
+  background-color: #dbb5cb;
+}
+
+.item p{
+  font-size: 17px;
+}
+
+.txt1{
+
+
+  position: relative;
+} */
+
+
+
+
+
+/*
+.txt1 a{
+display: inline-block;
+text-align: center;
+  border: 1px solid #7e715f;
+  border-radius:30px;
+  position: absolute;
+  bottom: 20px;
+  left: 142px;
+  padding: 10px 10px;
+  color: #7e715f;
+}
+.txt2 a{
+display: inline-block;
+text-align: center;
+  border: 1px solid #7e715f;
+  border-radius:30px;
+  position: absolute;
+  bottom: 20px;
+  left: 142px;
+  padding: 10px 10px;
+  color: #7e715f;
+}
+.txt3 a{
+display: inline-block;
+text-align: center;
+  border: 1px solid #7e715f;
+  border-radius:30px;
+  position: absolute;
+  bottom: 20px;
+  left: 142px;
+  padding: 10px 10px;
+  color: #7e715f;
+} */
+/*--  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #owl-wrap2{
+  height: 834px;
+  width:1122px;
+  margin: 0 auto;
+  padding-top: ;
+}
+
+#owl-wrap2 h2{
+}
+
+
+
+.item{
+  margin-left: 20px;
+}
+
+#owl-wrap2 .txt1{
+  height: 281.73px;
+  text-align: center;
+  background-color: #bb558c;
+}
+#owl-wrap2 .txt2{
+  height: 281px;
+  text-align: center;
+  background-color: #e6b056;
+}
+#owl-wrap2 .txt3{
+  height: 281px;
+  text-align: center;
+  background-color: #b9deb8;
+}
+
+#owl-wrap2 .txt1 a{
+  border: 1px solid #ffffff;
+  color: #ffffff;
+} */
+
+/* 캐러셀 추가요소들 */
+/* #owl-wrap2 h2{
+  text-align: center;
+   font-weight: normal;
+   font-size: 30px;
+}
+
+#owl-wrap2 h2:after{
+  display: block;
+content: "";
+width: 54px;
+border-bottom: 2px solid #000;
+margin: 15px auto 50px;
+}
+ */
+
+/* 캐러샐 대수정 */
+#owl-wrap2 h2{
+  text-align: center;
+font-weight: normal;
+font-size: 30px;
+color: #39362f;
+}
+
+#owl-wrap2 h2:after{
+  display: block;
+  content: "";
+  width: 54px;
+  border-bottom: 2px solid #7e7a72;
+  margin: 15px auto 50px;
+}
+
+
+#owl-wrap2{
+  width: 1122px;
+  height: 800px;
+  margin: 0 auto;
+}
+.item{
+  width: 352px;
+  height: 476px;
+  margin-right: 36px;
+}
+.item p{
+  font-size: 14px;
+  padding-bottom: 20px;
+  color: #9e9e9e;
+}
+/* .item a{
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 30px;
+  padding: 8px 13px;
+  margin-left: 130px;
+  color: #000000;
+}
+ */
+
+.item span{
+  display: block;
+  padding: 10px 0;
+  color: #39362f;
+}
+
+.border{
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.border span, p{
+  padding-left: 20px;
+}

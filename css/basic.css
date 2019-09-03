@@ -1,0 +1,207 @@
+/* 웹폰트 */
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+
+
+
+/* 푸터시작 */
+
+#footer_wrap{
+  width: 100%;
+  height: 245px;
+
+  background: #f5ead3 url("../images/신라로고3.png") no-repeat 62px center;
+
+
+  background-color: #f5ead3;
+}
+#logo4{
+  width: 1459px;
+  height: 93px;
+  line-height: 93px;
+  position: relative;
+  left: 399px;
+  border-bottom: 3px solid #e2d8c3;
+}
+#logo4 img[alt="신라로고4"]{
+  padding-top: 37px;
+}
+
+#footer{
+
+  width: 1920px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#footer_wrap2{
+  width: 1120px;
+  height: 149px;
+  position: relative;
+  left: 399px;
+  padding-right: 55px;
+  float: left;
+}
+
+#footer_wrap2 #address1{
+  float: left;
+  position: relative;
+  top: 39px;
+}
+
+#footer_wrap2 #address1 p{
+  display: block;
+  height: 75px;
+
+  padding: 5px 72px 0 14px;
+  border-right: 1px solid #d2c9b6;
+  color: #39362f;
+  font-weight: normal;
+
+}
+#footer_wrap2 #int_faq{
+  float: left;
+
+
+}
+#footer_wrap2 #int_faq a{
+  color: #000;
+}
+#footer_wrap2 #int_faq .footer_int{
+  padding-bottom: 35px;
+}
+#footer_wrap2 #int_faq .footer_int dt{
+  float: left;
+  padding-right: 59px;
+  color: #39362f;
+}
+#footer_wrap2 #int_faq .footer_int dd{
+  float: left;
+  padding: 0 20px 0 20px;
+  border-right: 1px solid #d2c9b6;
+
+}
+#int_faq a{
+  color: #39362f;
+}
+.d1 a{
+  color: #39362f;
+}
+#footer_wrap2 #int_faq .footer_int dd:nth-last-child(1){
+  border-right: none;
+}
+#footer_wrap2 #int_faq{
+  position: relative;
+  top: 46px;
+  left: 72px;
+}
+#footer_wrap2 #int_faq .faq{
+}
+#footer_wrap2 #int_faq .faq dt{
+  float: left;
+  padding-right: 27px;
+  color: #39362f;
+}
+#footer_wrap2 #int_faq .faq dd{
+  float: left;
+  padding: 0 20px 0 20px;
+  border-right: 1px solid #d2c9b6;
+}
+#footer_wrap2 #int_faq .faq dd:nth-last-child(1){
+  border-right: none;
+}
+#footer #sns{
+
+  float: right;
+  position: relative;
+  right: 196px;
+  top: 39px;
+  height: 75px;
+  border-left: 1px solid #d2c9b6;
+  padding: 0px 0 5px 63px;
+}
+#footer #sns h2{
+  font-size: 18px;
+  padding-bottom: 17px;
+}
+#footer #sns ul li{
+  float: left;
+  padding-right: 4px;
+}
+#footer_wrap3{
+  width: 1920px;
+  height: 69px;
+  /* margin: 0 auto; */
+  position: relative;
+  left: 100px;
+  top: 149px;
+
+
+  width: 1743px;
+  height: 68px;
+  border-bottom: 1px solid #cecac1;
+  z-index: 1;
+}
+#etc{
+position: absolute;
+/* left: 62px; */
+top: 25px;
+}
+#etc a{
+  color: #000;
+}
+#etc ul{
+}
+#etc ul li{
+float: left;
+border-right: 1px solid #cecac1;
+display: block;
+padding: 0 33px 0 33px;
+}
+#etc ul li:nth-of-type(1){
+  padding-left: 0;
+}
+
+#etc ul li:nth-last-child(1){
+  border-right: none;
+}
+#lang{
+  position: absolute;
+  /* right: 90px; */
+  left: 1484px;
+  top: 25px;
+}
+#lang a{
+  color: #000;
+}
+#lang ul{
+  overflow: hidden;
+}
+#lang ul li{
+  float: left;
+  display: block;
+  padding: 0 14px 0 14px;
+}
+#lang ul li:nth-last-child(1){
+  padding-right: 0;
+}
+#footer_wrap3{
+  /* display: block; */
+
+
+}
+#footer_wrap4{
+  float: left;
+  width: 1743px;
+  height: 254px;
+  position: relative;
+  left: 100px;
+  line-height: 25px;
+}
+#footer_wrap4 p{
+  float: left;
+  padding-top: 109px;
+}
+#footer_wrap4 #brandP{
+  float: right;
+  padding-top: 109px;
+}
